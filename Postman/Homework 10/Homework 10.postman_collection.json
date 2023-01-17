@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "5e311698-2373-4def-9580-57621feac683",
+		"name": "Homework 10",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23333247"
+	},
+	"item": [
+		{
+			"name": "Starship",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Model validation\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.model).to.eql(\"Twin Ion Engine Advanced x1\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Length validation\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    var length_var = pm.variables.get(\"length\");\r",
+							"    pm.expect(jsonData.Length).to.eql(length_var);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Quantity of films\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.films).to.lengthOf(\"1\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/starships/{{ID}}",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"starships",
+						"{{ID}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": "https://swapi.dev/api",
+			"type": "string"
+		},
+		{
+			"key": "ID",
+			"value": "13",
+			"type": "string"
+		},
+		{
+			"key": "Length",
+			"value": "9.2",
+			"type": "string"
+		},
+		{
+			"key": "Manufacturer",
+			"value": "Sienar Fleet Systems",
+			"type": "string"
+		}
+	]
+}
