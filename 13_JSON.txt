@@ -1,0 +1,12 @@
+{
+  "cheese": "Gouda",
+  "appetizer": "Olives",
+  "fruit": "Grape",
+  "cereals": "Bulgur",
+  "beer": [
+    "APA",
+    "IPA",
+    "Pilsner",
+    "Stout"
+  ]
+}
