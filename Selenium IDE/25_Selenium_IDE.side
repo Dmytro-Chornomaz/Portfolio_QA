@@ -1,0 +1,498 @@
+{
+  "id": "3a8ec5d7-c1ca-4bfd-b32e-dfaf62c9d340",
+  "version": "2.0",
+  "name": "25_Selenium_IDE",
+  "url": "https://en.wikipedia.org",
+  "tests": [{
+    "id": "34f7a89e-e799-4355-a0cb-c6cb81ed8317",
+    "name": "Raiders of the Lost Ark - Trailer",
+    "commands": [{
+      "id": "fa49c24f-1494-417c-b3b0-3ace64a85c98",
+      "comment": "",
+      "command": "open",
+      "target": "/wiki/Main_Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70213580-e0d2-4b82-b203-63fd93d8e9ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "735c0404-83ef-4826-b436-72ccc2e6533f",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "raider"
+    }, {
+      "id": "b43a32fb-52be-4b5a-9b71-95d86ff857e7",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.cdx-text-input__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "raiders of the lost ark"
+    }, {
+      "id": "087fb402-94af-46ae-9a7c-cb489da80ea2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdx-button",
+      "targets": [
+        ["css=.cdx-button", "css:finder"],
+        ["xpath=//form[@id='searchform']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa375d89-1ddb-4f9e-a039-db0903951e62",
+      "comment": "",
+      "command": "click",
+      "target": "css=#toc-Release > .vector-toc-link > .vector-toc-text",
+      "targets": [
+        ["css=#toc-Release > .vector-toc-link > .vector-toc-text", "css:finder"],
+        ["xpath=//li[@id='toc-Release']/a/div", "xpath:idRelative"],
+        ["xpath=//div/ul/li[6]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9d9b30d-0711-4c28-9ad7-4029d57fb7a7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,11522)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f145f9fa-7124-46d9-a6aa-034cedea49a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.external:nth-child(2) > i",
+      "targets": [
+        ["css=.external:nth-child(2) > i", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/table[2]/tbody/tr[2]/td/a/i", "xpath:idRelative"],
+        ["xpath=//td/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "90ae444b-f8b6-4583-bd42-93f15e6377e6",
+    "name": "Raiders of the Lost Ark - change language",
+    "commands": [{
+      "id": "1e8fc949-d25e-4196-840f-6b26923878f3",
+      "comment": "",
+      "command": "open",
+      "target": "/wiki/Main_Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d75929f4-2c6b-4011-9bb7-99c2793e3ada",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24a5d0e8-ee6d-432b-9dd2-d91701d68253",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "Raiders of the Lost Ark"
+    }, {
+      "id": "057eed72-ac9b-4724-8d5f-f9e86c4f2171",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdx-button",
+      "targets": [
+        ["css=.cdx-button", "css:finder"],
+        ["xpath=//form[@id='searchform']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7137cc45-bc54-4879-b8ca-ccd423ff1684",
+      "comment": "",
+      "command": "click",
+      "target": "id=p-lang-btn-checkbox",
+      "targets": [
+        ["id=p-lang-btn-checkbox", "id"],
+        ["css=#p-lang-btn-checkbox", "css:finder"],
+        ["xpath=//input[@id='p-lang-btn-checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='p-lang-btn']/input", "xpath:idRelative"],
+        ["xpath=//header/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a069a7d0-b7b4-42c6-84f0-a6530962c0a9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=p-lang-btn-checkbox",
+      "targets": [
+        ["id=p-lang-btn-checkbox", "id"],
+        ["css=#p-lang-btn-checkbox", "css:finder"],
+        ["xpath=//input[@id='p-lang-btn-checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='p-lang-btn']/input", "xpath:idRelative"],
+        ["xpath=//header/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c61170a9-21b2-4338-943c-552c995b9c27",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=p-lang-btn-checkbox",
+      "targets": [
+        ["id=p-lang-btn-checkbox", "id"],
+        ["css=#p-lang-btn-checkbox", "css:finder"],
+        ["xpath=//input[@id='p-lang-btn-checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='p-lang-btn']/input", "xpath:idRelative"],
+        ["xpath=//header/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8f196be-38c0-44e1-b0cf-1f2ab61034a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.interwiki-es span",
+      "targets": [
+        ["css=.interwiki-es span", "css:finder"],
+        ["xpath=//div[@id='p-lang-btn']/div/div/ul/li[17]/a/span", "xpath:idRelative"],
+        ["xpath=//li[17]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Español')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a7ecc956-6cbe-4ad8-8ee4-f44bd26ada6f",
+    "name": "Raiders of the Lost Ark - pdf file",
+    "commands": [{
+      "id": "8ddd35bd-2044-47ed-b899-851b937305f8",
+      "comment": "",
+      "command": "open",
+      "target": "/wiki/Main_Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "360c45be-9adf-4c96-89cb-7515addfd7c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "782ad77c-2cbd-4588-9791-e7ad2b8c94ef",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "Raiders of the Lost Ark"
+    }, {
+      "id": "7fcf62de-009f-4051-94f6-4694eb334a60",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cdx-button",
+      "targets": [
+        ["css=.cdx-button", "css:finder"],
+        ["xpath=//form[@id='searchform']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87800192-7289-4212-9265-d87adcc571b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdx-button",
+      "targets": [
+        ["css=.cdx-button", "css:finder"],
+        ["xpath=//form[@id='searchform']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32aaea9f-a606-40a0-8d99-f36094e0dcbd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cdx-button",
+      "targets": [
+        ["css=.cdx-button", "css:finder"],
+        ["xpath=//form[@id='searchform']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c16d1afb-90ee-4649-a6d4-954ef496b2e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=mw-sidebar-button",
+      "targets": [
+        ["id=mw-sidebar-button", "id"],
+        ["css=#mw-sidebar-button", "css:finder"],
+        ["xpath=//label[@id='mw-sidebar-button']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Toggle sidebar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dcdc902-18cc-44e0-8f2f-4fa06bf20c19",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,202)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "085ceef1-21df-471f-9cdd-545d4f580d86",
+      "comment": "",
+      "command": "click",
+      "target": "css=#coll-download-as-rl span",
+      "targets": [
+        ["css=#coll-download-as-rl span", "css:finder"],
+        ["xpath=//li[@id='coll-download-as-rl']/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Download as PDF')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea603b84-cfab-49fa-afff-9fce299d5e07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.oo-ui-labelElement-label",
+      "targets": [
+        ["css=.oo-ui-labelElement-label", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/form/div/span/span/button/span[2]", "xpath:idRelative"],
+        ["xpath=//button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c50d062d-a129-4f7d-b122-b25ed7e17622",
+    "name": "Raiders of the Lost Ark - internal link",
+    "commands": [{
+      "id": "814db9d0-8ce9-485f-8f29-84b4654bcb32",
+      "comment": "",
+      "command": "open",
+      "target": "/wiki/Main_Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e91b2d87-147c-451c-839a-f82ce8365bf5",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf32bf7c-99cb-4bac-99bf-f66d08901b53",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "Raiders of the Lost Ark"
+    }, {
+      "id": "5938db80-e662-4cea-99aa-b84ed0bf2209",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdx-button",
+      "targets": [
+        ["css=.cdx-button", "css:finder"],
+        ["xpath=//form[@id='searchform']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb33b45c-baa2-420e-9d4a-554951686cfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(7) > a:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(7) > a:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Steven Spielberg')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/p[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Steven_Spielberg')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "73fda38b-a717-4ada-870d-8f2fbd06d6a6",
+    "name": "Raiders of the Lost Ark - double search",
+    "commands": [{
+      "id": "d2049c6d-029b-4d99-888c-d6f2a6d2002a",
+      "comment": "",
+      "command": "open",
+      "target": "/wiki/Main_Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66928c6d-9158-4d96-9b96-f8df3cd00c2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bda4cdaf-6c17-4508-b5a3-8b40d0afc9b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "Raiders of the Lost Ark"
+    }, {
+      "id": "00e04e97-7632-4e62-ab7a-5140c098e578",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdx-button",
+      "targets": [
+        ["css=.cdx-button", "css:finder"],
+        ["xpath=//form[@id='searchform']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a724b6da-a9db-4855-a1a9-09f32f05171a",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86c086f8-bc1a-497d-bf9a-896b4d44cfaf",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "indiana jo"
+    }, {
+      "id": "e81e22ea-f1e6-45a9-94c3-1a38febddfbc",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.cdx-text-input__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "indiana jones"
+    }, {
+      "id": "b6c7fc05-9b66-4769-adc6-98731ba18849",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdx-button",
+      "targets": [
+        ["css=.cdx-button", "css:finder"],
+        ["xpath=//form[@id='searchform']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6b26feb3-ff3c-48e0-bc20-5a2c7bef0e7a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://en.wikipedia.org/"],
+  "plugins": []
+}
